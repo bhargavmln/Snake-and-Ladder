@@ -30,7 +30,7 @@ public class snakeAndLadder{
 			}
 			turnCount += 1;
 		}
-		}
+		
 		System.out.println("Congragulations! You have reached the position " + position);
 		System.out.println("The die was played " + turnCount + " number of times.");
 
