@@ -6,6 +6,7 @@ public class snakeAndLadder{
 	public static void main(String[] args) {
 		
 		int position = 0;
+		int turnCount = 0;
 		System.out.println("Your start position is: " + position);
 		
 		
@@ -27,7 +28,9 @@ public class snakeAndLadder{
 			default :
 				position = position + 0;
 			}
+			turnCount += 1;
+			System.out.println("Your Current Position is: " + position);
 		}
-		System.out.println("Congragulations! You have reached the position " + position);
+		System.out.println("You rolled the die " + turnCount + " times to win the game!");
 	}
 }
