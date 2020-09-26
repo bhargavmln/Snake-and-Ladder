@@ -7,9 +7,8 @@ public class snakeAndLadder{
 		
 		int turnCount = 0;
 		int position = 0;
-		int turnCount = 0;
-		System.out.println("Your start position is: " + position);
 		
+		System.out.println("Your start position is: " + position);
 		
 		while(position<100) {
 			int dieNumber = ((int) Math.floor(Math.random()*10) % 6) + 1;
@@ -30,11 +29,7 @@ public class snakeAndLadder{
 				position = position + 0;
 			}
 			turnCount += 1;
-
-			System.out.println("Your Current Position is: " + position);
 		}
-		System.out.println("You rolled the die " + turnCount + " times to win the game!");
-
 		}
 		System.out.println("Congragulations! You have reached the position " + position);
 		System.out.println("The die was played " + turnCount + " number of times.");
